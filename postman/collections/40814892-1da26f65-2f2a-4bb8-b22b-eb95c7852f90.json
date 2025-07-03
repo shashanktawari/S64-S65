@@ -24,7 +24,7 @@
 							},
 							{
 								"key": "Authorization",
-								"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJydWNoaXRhLmJoYW5kYXJlQHNtYXJ0ZWluYy5jb20iLCJ1c2VySWQiOjIsImNsaWVudElkIjoxLCJpc3MiOiJodHRwOi8vMTkyLjE2OC4xNS41OjgxMDAvL3YxL2FjY291bnRzL2xvZ2luIiwiaWF0IjoxNzUxNDU2NTY2LCJhdXRob3JpdGllcyI6WyJTdXBlciBBZG1pbiJdLCJwZXJtaXNzaW9ucyI6WyJFbWFpbCBJZCIsIkNSRUFURV9DTElFTlRfQUNDT1VOVCIsIlZJRVdfQ0xJRU5UX0FDQ09VTlQiXSwibGlzdE9mUHJvZHVjdHMiOlsiRW5yaWNoIE9uRGVtYW5kIl0sImV4cCI6MTc1MTQ2MDE2Nn0.nyu9cHhEeY3EVK0w_E8miV6MFAAGoa9iXbVLae01sGI"
+								"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJydWNoaXRhLmJoYW5kYXJlQHNtYXJ0ZWluYy5jb20iLCJ1c2VySWQiOjIsImNsaWVudElkIjoxLCJpc3MiOiJodHRwOi8vMTkyLjE2OC4xNS41OjgxMDAvL3YxL2FjY291bnRzL2xvZ2luIiwiaWF0IjoxNzUxNDU2ODk5LCJhdXRob3JpdGllcyI6WyJTdXBlciBBZG1pbiJdLCJwZXJtaXNzaW9ucyI6WyJFbWFpbCBJZCIsIkNSRUFURV9DTElFTlRfQUNDT1VOVCIsIlZJRVdfQ0xJRU5UX0FDQ09VTlQiXSwibGlzdE9mUHJvZHVjdHMiOlsiRW5yaWNoIE9uRGVtYW5kIl0sImV4cCI6MTc1MTQ2MDQ5OX0.tKi81B0tQckLG582QJOCkizZmOR9ughHD-ukDvSo4mo"
 							}
 						],
 						"body": {
@@ -37,11 +37,15 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseUrl}}/v2/clients",
+							"raw": "https://qa-enrich.smarte.pro/userapi/v2/clients",
+							"protocol": "https",
 							"host": [
-								"{{baseUrl}}"
+								"qa-enrich",
+								"smarte",
+								"pro"
 							],
 							"path": [
+								"userapi",
 								"v2",
 								"clients"
 							]
@@ -74,11 +78,17 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseUrl}}v1/accounts/login",
+							"raw": "http://192.168.15.5:8100/v1/accounts/login",
+							"protocol": "http",
 							"host": [
-								"{{baseUrl}}v1"
+								"192",
+								"168",
+								"15",
+								"5"
 							],
+							"port": "8100",
 							"path": [
+								"v1",
 								"accounts",
 								"login"
 							]
