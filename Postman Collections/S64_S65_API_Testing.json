@@ -24,7 +24,7 @@
 							},
 							{
 								"key": "Authorization",
-								"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJydWNoaXRhLmJoYW5kYXJlQHNtYXJ0ZWluYy5jb20iLCJ1c2VySWQiOjIsImNsaWVudElkIjoxLCJpc3MiOiJodHRwOi8vMTkyLjE2OC4xNS41OjgxMDAvL3YxL2FjY291bnRzL2xvZ2luIiwiaWF0IjoxNzUxNDU2NTY2LCJhdXRob3JpdGllcyI6WyJTdXBlciBBZG1pbiJdLCJwZXJtaXNzaW9ucyI6WyJFbWFpbCBJZCIsIkNSRUFURV9DTElFTlRfQUNDT1VOVCIsIlZJRVdfQ0xJRU5UX0FDQ09VTlQiXSwibGlzdE9mUHJvZHVjdHMiOlsiRW5yaWNoIE9uRGVtYW5kIl0sImV4cCI6MTc1MTQ2MDE2Nn0.nyu9cHhEeY3EVK0w_E8miV6MFAAGoa9iXbVLae01sGI"
+								"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJydWNoaXRhLmJoYW5kYXJlQHNtYXJ0ZWluYy5jb20iLCJ1c2VySWQiOjIsImNsaWVudElkIjoxLCJpc3MiOiJodHRwOi8vMTkyLjE2OC4xNS41OjgxMDAvL3YxL2FjY291bnRzL2xvZ2luIiwiaWF0IjoxNzUxNDU2ODk5LCJhdXRob3JpdGllcyI6WyJTdXBlciBBZG1pbiJdLCJwZXJtaXNzaW9ucyI6WyJFbWFpbCBJZCIsIkNSRUFURV9DTElFTlRfQUNDT1VOVCIsIlZJRVdfQ0xJRU5UX0FDQ09VTlQiXSwibGlzdE9mUHJvZHVjdHMiOlsiRW5yaWNoIE9uRGVtYW5kIl0sImV4cCI6MTc1MTQ2MDQ5OX0.tKi81B0tQckLG582QJOCkizZmOR9ughHD-ukDvSo4mo"
 							}
 						],
 						"body": {
@@ -36,7 +36,7 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}/v2/clients",
+						"url": "https://qa-enrich.smarte.pro/userapi/v2/clients",
 						"description": "Generated from cURL: curl --location 'http://localhost:8080/v2/clients' \\\r\n--header 'Content-Type: application/json' \\\r\n--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJydWNoaXRhLmJoYW5kYXJlQHNtYXJ0ZWluYy5jb20iLCJ1c2VySWQiOjIsImNsaWVudElkIjoxLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvdjEvYWNjb3VudHMvbG9naW4iLCJpYXQiOjE3NTEzNjYwMjAsImF1dGhvcml0aWVzIjpbIlN1cGVyIEFkbWluIl0sInBlcm1pc3Npb25zIjpbIkVtYWlsIElkIiwiQ1JFQVRFX0NMSUVOVF9BQ0NPVU5UIiwiVklFV19DTElFTlRfQUNDT1VOVCJdLCJsaXN0T2ZQcm9kdWN0cyI6WyJFbnJpY2ggT25EZW1hbmQiXSwiZXhwIjoxNzUxMzY5NjIwfQ.CBBzlHY8qPoU1Lfa6cO9JsEbEL0iGjmyo8yKXi1k4vE' \\\r\n--data-raw '{\r\n    \"adminEmail\": \"vyankatesh.poojari@smarte.pro\",\r\n    \"adminFirstName\": \"vyankatesh\",\r\n    \"adminLastName\": \"Poojari\",\r\n    \"allowedroleid\": 9,\r\n    \"clientName\": \"venky7a790\",\r\n    \"expiryDate\": \"2025-07-30T11:16:13.806Z\",\r\n    \"startDate\": \"2025-06-29T11:16:11.875Z\",\r\n    \"adminUsername\": \"vyankatesh.poojari@smarte.pro\",\r\n    \"roleAssigned\": 8,\r\n    \r\n    \"directDialAccess\": false,\r\n    \"emailRefresherAccess\": true,\r\n    \"clientType\": \"Regular\",\r\n    \"selectedProduct\": [\r\n        1,\r\n        2\r\n    ],\r\n    \"licenses\": [\r\n        {\r\n            \"licenseCount\": \"2\",\r\n            \"licenseTypeName\": \"Hunter\"\r\n        }\r\n    ],\r\n    \"subscriptionType\": \"Enterprise Standard\",\r\n    \"rateLimit\": 1,\r\n    \"accountLimit\": 10,\r\n    \"leadLimit\": 2,\r\n    \"access\": true\r\n}'"
 					},
 					"response": []
@@ -64,7 +64,7 @@
 								}
 							}
 						},
-						"url": "{{baseUrl}}v1/accounts/login",
+						"url": "http://192.168.15.5:8100/v1/accounts/login",
 						"description": "Generated from cURL: curl --location 'http://localhost:8080/v1/accounts/login' \\\n--header 'Content-Type: application/json' \\\n--data-raw '{\n    \"userName\": \"ruchita.bhandare@smarteinc.com\",\n    \"password\": \"Admin@12345\"\n}'"
 					},
 					"response": []
